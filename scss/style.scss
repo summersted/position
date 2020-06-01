@@ -1,0 +1,140 @@
+@import "mixins";
+
+body,html{
+    width: 100%;
+    height: 100%;
+}
+h1,h3{
+    text-align: center;
+}
+.flex{
+    display: block;
+}
+.left{
+    text-align: left;
+}
+.banner{
+    @include fixed;
+    top: 0;
+    right: 0;
+    width: 400px;
+    height: 500px;
+}
+.sticky{
+    @include sticky;
+    margin-left: 100px;
+}
+//static
+.static_roof{
+    @include static;
+    @include roof;
+}
+.static_house{
+    @include static;
+    @include house;
+    background-color: chocolate;
+}
+.static_door{
+    @include static;
+    @include door;
+    margin-top: 70px;
+    margin-left: 80px;
+}
+.static_window{
+    @include static;
+    @include window;
+    margin-top: 75px;
+    margin-left: 10px;
+    bottom: 150px;
+    float: left;
+}
+//relative
+.relative_roof{
+    @include roof;
+    @include relative;
+}
+.relative_house{
+    @include house;
+    @include relative;
+    background-color: chocolate;
+}
+.relative_window{
+    @include window;
+    @include relative;
+    bottom: 80px;
+    left: 15px;
+}
+.relative_door{
+    @include door;
+    @include relative;
+    left: 70px;
+    bottom: 152px;
+}
+//absolute
+.absolute_roof{
+    @include roof;
+    @include relative;
+}
+.absolute_house{
+    @include house;
+    @include relative;
+    background-color: chocolate;
+}
+.absolute_window{
+    @include window;
+    @include relative;
+    bottom: 80px;
+    left: 15px;
+}
+.absolute_door{
+    @include door;
+    @include relative;
+    left: 70px;
+    bottom: 152px;
+}
+//fixed
+.fixed_roof{
+    @include roof;
+    @include relative;
+}
+.fixed_house{
+    @include house;
+    @include relative;
+    background-color: chocolate;
+}
+.fixed_window{
+    @include window;
+    @include relative;
+    margin-top: 75px;
+    margin-left: 20px;
+    float: left;
+}
+.fixed_door{
+    @include door;
+    @include relative;
+    margin-top: 70px;
+    margin-left: 80px;
+}
+//sticky
+.sticky_roof{
+    @include roof;
+    @include sticky;
+}
+.sticky_house{
+    @include house;
+    @include sticky;
+    background-color: chocolate;
+}
+.sticky_window{
+    @include window;
+    @include sticky;
+    margin-top: 70px;
+    margin-left: 20px;
+    float: left;
+}
+.sticky_door{
+    @include door;
+    @include sticky;
+    margin-top: 70px;
+    margin-left: 80px;
+}

@@ -1,0 +1,46 @@
+@mixin static {
+    position: static;
+    margin-left: 45%;
+}
+@mixin relative {
+    position: relative;
+    margin-left: 45%;
+}
+@mixin absolute {
+    position: absolute;
+    margin-left: 45%;
+}
+@mixin fixed {
+    position: fixed;
+}
+@mixin sticky {
+    position: sticky;
+    top: 0;
+}
+@mixin house {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border: 4px solid orangered;
+    z-index: 2;
+}
+@mixin roof {
+    width: 0px;
+    border-style: solid;
+    border-width: 20px 79px 75px 79px; 
+    border-color: transparent transparent brown transparent;
+    z-index: 1;
+}
+@mixin window {
+    width: 40px;
+    height: 60px;
+    background-color: turquoise;
+    border: 4px solid rgb(29, 57, 136);
+    z-index: 3;
+}
+@mixin door {
+    width: 50px;
+    height: 80px;
+    background-color: darkred;
+    z-index: 4;
+}

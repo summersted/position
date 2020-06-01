@@ -1,0 +1,240 @@
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+h1, h3 {
+  text-align: center;
+}
+
+.flex {
+  display: block;
+}
+
+.left {
+  text-align: left;
+}
+
+.banner {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 400px;
+  height: 500px;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  margin-left: 100px;
+}
+
+.static_roof {
+  position: static;
+  margin-left: 45%;
+  width: 0px;
+  border-style: solid;
+  border-width: 20px 79px 75px 79px;
+  border-color: transparent transparent brown transparent;
+}
+
+.static_house {
+  position: static;
+  margin-left: 45%;
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  border: 4px solid orangered;
+  background-color: chocolate;
+}
+
+.static_door {
+  position: static;
+  margin-left: 45%;
+  width: 50px;
+  height: 80px;
+  background-color: darkred;
+  margin-top: 70px;
+  margin-left: 80px;
+}
+
+.static_window {
+  position: static;
+  margin-left: 45%;
+  width: 40px;
+  height: 60px;
+  background-color: turquoise;
+  border: 4px solid #1d3988;
+  margin-top: 75px;
+  margin-left: 10px;
+  bottom: 150px;
+  float: left;
+}
+
+.relative_roof {
+  width: 0px;
+  border-style: solid;
+  border-width: 20px 79px 75px 79px;
+  border-color: transparent transparent brown transparent;
+  position: relative;
+  margin-left: 45%;
+}
+
+.relative_house {
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  border: 4px solid orangered;
+  position: relative;
+  margin-left: 45%;
+  background-color: chocolate;
+}
+
+.relative_window {
+  width: 40px;
+  height: 60px;
+  background-color: turquoise;
+  border: 4px solid #1d3988;
+  position: relative;
+  margin-left: 45%;
+  bottom: 80px;
+  left: 15px;
+}
+
+.relative_door {
+  width: 50px;
+  height: 80px;
+  background-color: darkred;
+  position: relative;
+  margin-left: 45%;
+  left: 70px;
+  bottom: 152px;
+}
+
+.absolute_roof {
+  width: 0px;
+  border-style: solid;
+  border-width: 20px 79px 75px 79px;
+  border-color: transparent transparent brown transparent;
+  position: relative;
+  margin-left: 45%;
+}
+
+.absolute_house {
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  border: 4px solid orangered;
+  position: relative;
+  margin-left: 45%;
+  background-color: chocolate;
+}
+
+.absolute_window {
+  width: 40px;
+  height: 60px;
+  background-color: turquoise;
+  border: 4px solid #1d3988;
+  position: relative;
+  margin-left: 45%;
+  bottom: 80px;
+  left: 15px;
+}
+
+.absolute_door {
+  width: 50px;
+  height: 80px;
+  background-color: darkred;
+  position: relative;
+  margin-left: 45%;
+  left: 70px;
+  bottom: 152px;
+}
+
+.fixed_roof {
+  width: 0px;
+  border-style: solid;
+  border-width: 20px 79px 75px 79px;
+  border-color: transparent transparent brown transparent;
+  position: relative;
+  margin-left: 45%;
+}
+
+.fixed_house {
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  border: 4px solid orangered;
+  position: relative;
+  margin-left: 45%;
+  background-color: chocolate;
+}
+
+.fixed_window {
+  width: 40px;
+  height: 60px;
+  background-color: turquoise;
+  border: 4px solid #1d3988;
+  position: relative;
+  margin-left: 45%;
+  margin-top: 75px;
+  margin-left: 20px;
+  float: left;
+}
+
+.fixed_door {
+  width: 50px;
+  height: 80px;
+  background-color: darkred;
+  position: relative;
+  margin-left: 45%;
+  margin-top: 70px;
+  margin-left: 80px;
+}
+
+.sticky_roof {
+  width: 0px;
+  border-style: solid;
+  border-width: 20px 79px 75px 79px;
+  border-color: transparent transparent brown transparent;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.sticky_house {
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  border: 4px solid orangered;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: chocolate;
+}
+
+.sticky_window {
+  width: 40px;
+  height: 60px;
+  background-color: turquoise;
+  border: 4px solid #1d3988;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  margin-top: 70px;
+  margin-left: 20px;
+  float: left;
+}
+
+.sticky_door {
+  width: 50px;
+  height: 80px;
+  background-color: darkred;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  margin-top: 70px;
+  margin-left: 80px;
+}
+/*# sourceMappingURL=style.css.map */
